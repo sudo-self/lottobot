@@ -42,7 +42,7 @@ function App() {
     const megaMillionsSpecialNumber = generateRandomNumber(1, 25);
 
     setOutput(`
-      Colorado Lottery Games<br />
+      lottobot.JesseJesse.com<br />
       Pick 3: [${pick3Digits.join(" ")}] <br/>
       Cash 5: [${cash5Numbers.join(" ")}] <br/>
       Powerball: [${powerballNumbers.join(" ")}] <span style="color:red;">[${powerballSpecialNumber}]</span> <br/>
