@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './index.css'; // Import Tailwind CSS styles
+import './index.css';
 
 import botSVG from './assets/bot.svg';
 
@@ -87,12 +87,8 @@ function App() {
     "Mega Millions: Tuesdays & Fridays - 21:00\n" +
     "Colorado Lotto+: Mon. Wed. Sat. - 19:30\n\n";
 
-  const website = "https://lottobot.jessejesse.com";
+  const website = "lottobot.jessejesse.com";
 
-  
-  const openWebsite = () => window.open(website);
-
-  
   alert(ticketInfo + drawingTimes + website);
 }
 
